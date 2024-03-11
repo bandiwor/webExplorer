@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
     }
 
     window.addEventListener('keydown', e => {
-        if (searchText && e.code.toLowerCase() === 'space') {
+        if (!searchText && e.code.toLowerCase() === 'space') {
             e.preventDefault();
             return;
         }
