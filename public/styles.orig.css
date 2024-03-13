@@ -99,6 +99,7 @@ a, button, input, textarea {
     width: 2rem;
     height: 2rem;
     object-fit: contain;
+    user-select: none;
 }
 
 .icon_link > span {
@@ -128,6 +129,8 @@ a, button, input, textarea {
     object-fit: contain;
     width: 100%;
     height: auto;
+    user-select: none;
+    pointer-events: none;
 }
 .file > span {
     text-align: center;
